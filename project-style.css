@@ -51,6 +51,8 @@ h1, h2, h3 {
     color: #735d78;
 }
 
+
+
 #subtitle {
     text-align: center;
     text-transform: uppercase;
@@ -110,6 +112,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section a {
+    width: 100%;
 }
 
 .displayImg {
@@ -201,20 +207,34 @@ section {
 /* ------ MOBILE ------- */
 @media screen and (max-width: 767px) {
     .title h1 {
-        font-size: 6em;
+        font-size: 4em;
+        margin-top: 20vh;
     }
 
     #subtitle {
-        font-size: 1.5em;
-        letter-spacing: 8px;
+        font-size: 1.3em;
+        letter-spacing: 4px;
     }
 
     section {
-        width: 85%;
+        width: 95%;
+    }
+
+    .one-break {
+        margin-top: 50vh;
     }
 
     .projImg h3 {
         font-size: 2em;
+    }
+
+    .displayImg {
+        border-radius: 15px;
+    }
+
+    .description h4 {
+        text-transform: uppercase;
+        font-size: 1.5em;
     }
 
     .projImg:hover .overlay {
