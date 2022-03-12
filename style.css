@@ -80,5 +80,11 @@ nav a {
 }
 
 
-
+#copyright {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 0 40px 0;
+  font-size: 1em !important;
+}
 
