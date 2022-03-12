@@ -1,0 +1,91 @@
+h1 {
+  font-size: 3em;
+}
+
+body .homepage, body .contactpage {
+  height: 100vh;
+  margin: 0;
+}
+
+.cover, .container {
+  display: flex;
+}
+
+.coverText {
+  width: 45%;
+  padding: 0 60px 0 0 ;
+  margin: 8% 0 0 10%;
+}
+
+.coverImg {
+  padding: 5% 0 0 0;
+  height: 70vh;
+}
+
+#me {
+  height: 100%;
+}
+
+/*DESKTOP */
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1.5em !important;
+  }
+}
+
+/* ------ TABLET ------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hompage p {
+    font-size: 1.4em;
+  }
+
+  .coverText {
+    margin: 10% 0 0 8%;
+  }
+
+  .coverImg {
+    padding: 12% 5% 0 0;
+    height: 60vh;
+  }
+
+  #me {
+    height: 90%;
+  }
+
+  .socials {
+    margin-top: 0px;
+  }
+}
+
+/* ------ MOBILE ------- */
+@media screen and (max-width: 767px) {
+  .homepage p {
+    font-size: 1em;
+  }
+
+  .cover {
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .coverText {
+    width: 100%;
+    padding: 0 0 0 0 ;
+    margin: 10% 5% 0 5%;
+  }
+
+  .coverImg {
+    padding: 12% 0 0 0;
+    height: 50vh;
+  }
+
+  #me {
+    height: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  .socials {
+    margin-top: 0px;
+  }
+}

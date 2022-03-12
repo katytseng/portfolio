@@ -1,0 +1,169 @@
+/* ------ CONTACT PAGE ------- */
+.container {
+  display: flex;
+}
+
+.leftCont {
+  width: 45%;
+  margin: 10% 0 0 0;
+}
+
+.leftCont img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.rightCont {
+  width: 40%;
+  padding: 3% 0 0 0;
+}
+
+.contactForm {
+  width: 100%; 
+  margin: 12% 0 0 20%;
+  
+}
+
+fieldset {
+  background-color: #735d78;
+  border-radius: 30px;
+  border: none;
+}
+
+legend {
+  margin: 30px auto 30px auto;
+  transform: translateY(-30px);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.5vw;
+}
+
+input, textarea {
+	display: block;
+  margin: auto;
+  width: 75%;
+  height: 40px;
+  line-height: 1.5;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  border-bottom: 5px solid #b392ac;
+  background-color: rgba(14, 39, 114, 0);
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus, textarea:focus {
+  border-bottom: 5px solid white;
+  outline: none;
+}	
+
+::placeholder {
+  color: white;
+}
+
+#submit, #returnForm {
+	display: block;
+  margin: 0 auto 30px auto;
+  width: 30%; 
+	padding: 10px; 
+  border-radius: 20px;
+  border: none;
+  background-color: #b392ac;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+#submit:hover, #returnForm:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+
+/* ------ TABLET ------- */
+@media screen and (min-width: 788px) and (max-width: 1180px) {
+  .leftCont {
+    width: 50%;
+    margin: 10% 0 0 0;
+  }
+  
+  .leftCont img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  .rightCont {
+    width: 40%;
+    padding: 2% 0 0 0;
+  }
+  
+  form {
+    width:100%;
+    margin: auto;
+
+  }	
+
+  .contactForm {
+    width: 90%; 
+    margin-top: 15%;
+  }
+
+  input, textarea {
+    height: 30px;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+  legend {
+    font-size: 2.5vw;
+  }
+}
+
+/* ------ MOBILE ------- */
+@media screen and (max-width: 787px) {
+  .container {
+    flex-flow: column;
+  }
+
+  .leftCont {
+    width: 100%;
+    margin: 10% 0 0 0;
+  }
+  
+  .leftCont img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  .rightCont {
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+  }
+
+  .contactForm {
+    display: flex;
+    margin: 10% 0 0 10%;
+    width: 80%; 
+  }
+
+  input, textarea {
+    height: 25px;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+
+  legend {
+    font-size: 6vw;
+  }
+}
