@@ -126,6 +126,7 @@ section a {
 .projImg h3 {
     position: absolute;
     font-size: 4em;
+    letter-spacing: 8px;
     background-color: rgba(247, 209, 205);
 }
 
@@ -149,11 +150,13 @@ section a {
 
 .description {
     padding: 20px 10px 0 10px;
+    color: black;
 }
 
 .description h4 {
     text-transform: uppercase;
     font-size: 2em;
+    
 }
 
 .description li {
@@ -225,7 +228,8 @@ section a {
     }
 
     .projImg h3 {
-        font-size: 2em;
+        font-size: 1.5em;
+        letter-spacing: 2px;
     }
 
     .displayImg {
