@@ -6,13 +6,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  transition: width 1s linear; 
+}
+
+::-webkit-scrollbar:hover {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
 }
 
 body {
   background-image: url("images/brushed-alum-dark.png");
   background-color: #e8c2ca;
   font-family: 'Barlow Semi Condensed', sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
