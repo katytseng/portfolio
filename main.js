@@ -21,7 +21,7 @@ function myFunction() {
   }
 }
 
-$('button').click(function () {
-  $('button').removeClass('active');
-  $(this).addClass('active');
+$('button').on('click', function(){
+  $('button').removeClass('selected');
+  $(this).removeClass('selected');
 });
