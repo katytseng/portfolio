@@ -2,7 +2,7 @@ h1 {
   font-size: 3em;
 }
 
-body .homepage, body .contactpage {
+.myBody {
   height: 100vh;
   margin: 0;
 }
