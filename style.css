@@ -35,7 +35,7 @@ html {
 }
 
 body, .myBody {
-  background-image: url("images/brushed-alum-dark.png");
+  background-image: url("https://katytseng.github.io/portfolio/images/brushed-alum-dark.png");
   background-color: #e8c2ca;
   font-family: 'Barlow Semi Condensed', sans-serif;
   overflow: hidden;
