@@ -176,12 +176,6 @@ section a {
     margin-top: 14.5vh;
 }
 
-
-
-/*DESKTOP */
-@media screen and (min-width: 1024px) {
-    
-}
   
 /* ------ TABLET ------- */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
