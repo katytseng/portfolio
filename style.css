@@ -1,6 +1,6 @@
 /* Universal Stylesheet */
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,800;1,300&display=swap');
 
 * {
   margin: 0;
@@ -34,7 +34,7 @@ html {
   border-radius: 10px;
 }
 
-body {
+body, .myBody {
   background-image: url("images/brushed-alum-dark.png");
   background-color: #e8c2ca;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -44,12 +44,16 @@ body {
 }
 
 
-a {
+a, .myA {
   color: #735d78;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-a:visited {
+a:hover, .myA:hover {
+  text-decoration: none !important;
+}
+
+a:visited, .myA:visited {
   color: #735d78;
 }
 
@@ -58,7 +62,7 @@ nav {
   margin: 30px 0 0 0;
 }
 
-nav a {
+nav a, nav .myA {
   padding: 0 20px 0 20px;
 }
 
